@@ -18,11 +18,10 @@ export default function DefaultStacked({
 
     return (
         <html lang="en">
-            <body  style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }} className="bg-base-200">
+            <body style={{minHeight: "100vh" }} className="bg-gray-100">
                     <DefaultNavbar/>
-                    <div style={{ flex: 1 }} className="min-h-[calc(100vh-3rem)]">
-                        {/* [children] */}
-                        {children}
+                    <div className="px-4 sm:px-6 lg:px-8 pt-3 pb-6 sticky top-0 z-50 bg-gray-100" >
+                        {children}  
                     </div>
             </body>
         </html>

@@ -16,8 +16,8 @@ export default function AuthLayout({
 }>) {
 
     return (
-        <html className="h-full bg-white">
-            <body className="h-full bg-white">
+        <html className="h-full bg-gray-100">
+            <body className="h-full bg-gray-100">
                 {children}
             </body>
         </html>
