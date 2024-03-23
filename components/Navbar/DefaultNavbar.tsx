@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export const DefaultNavbar = () => {
     return (
-        <div className="px-4 sm:px-6 lg:px-8 pt-3 pb-6 sticky top-0 z-50 w-full bg-gray-100" style={{ zIndex: 99, width: '100%' }}>
+        <div className="px-4 sm:px-6 lg:px-8 pt-3 sticky top-0 z-50 w-full bg-gray-100" style={{ zIndex: 99, width: '100%' }}>
             <nav className="navbar bg-primary rounded-full shadow-lg border text-white">
                 <div className="flex-1">
                     <Link className="btn btn-ghost normal-case text-xl rounded-full" href="/" title="home">
